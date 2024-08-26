@@ -6,7 +6,8 @@ const nextConfig = {
     // next 이미지 최적화 옵션 off
     images: {
         unoptimized: true
-    }
+    },
+    output:'export'
 };
 
 export default nextConfig;

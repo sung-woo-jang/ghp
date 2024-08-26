@@ -1,8 +1,8 @@
 import styles from "./../../page.module.css";
 import Link from "next/link";
-import blueRacket from "@/../public/img/blueRacket.png";
-import redRacket from "@/../public/img/redRacket.png";
-import blackRacket from "@/../public/img/blackRacket.png";
+import daangn from "@/../public/img/daangn.png";
+import instagram from "@/../public/img/instagram.png";
+import baemin from "@/../public/img/baemin.png";
 import Image from "next/image";
 interface ProjectPageProps {
   params: { id: "1" | "2" | "3" };
@@ -10,19 +10,19 @@ interface ProjectPageProps {
 
 const projectData = {
   1: {
-    title: "프로젝트 1",
-    description: "프로젝트 1에 대한 상세 설명",
-    image: redRacket,
+    title: "인스타그램 클론코딩",
+    description: "인스타그램에 대한 상세 설명",
+    image: instagram,
   },
   2: {
-    title: "프로젝트 2",
-    description: "프로젝트 2에 대한 상세 설명",
-    image: blueRacket,
+    title: "당근마켓 클론코딩",
+    description: "당근마켓에 대한 상세 설명",
+    image: daangn,
   },
   3: {
-    title: "프로젝트 3",
-    description: "프로젝트 3에 대한 상세 설명",
-    image: blackRacket,
+    title: "배달의 민족 클론코딩",
+    description: "배달의 민족에 대한 상세 설명",
+    image: baemin,
   },
 };
 

@@ -3,9 +3,9 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 import Link from "next/link";
-import blueRacket from "@/../public/img/blueRacket.png";
-import redRacket from "@/../public/img/redRacket.png";
-import blackRacket from "@/../public/img/blackRacket.png";
+import daangn from "@/../public/img/daangn.png";
+import instagram from "@/../public/img/instagram.png";
+import baemin from "@/../public/img/baemin.png";
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
         <div className={styles.card}>
           <Image
             className={styles.cardImg}
-            src={redRacket}
+            src={instagram}
             alt="Project 1"
             width={300}
             height={300}
@@ -35,7 +35,7 @@ export default function Home() {
         <div className={styles.card}>
           <Image
             className={styles.cardImg}
-            src={blueRacket}
+            src={daangn}
             alt="Project 2"
             width={300}
             height={300}
@@ -48,7 +48,7 @@ export default function Home() {
         <div className={styles.card}>
           <Image
             className={styles.cardImg}
-            src={blackRacket}
+            src={baemin}
             alt="Project 3"
             width={300}
             height={300}
